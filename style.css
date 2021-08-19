@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* .body{
+    margin: auto;
+} */
+.heading-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .1rem;
+    margin-right: -1rem;
+    margin-left: 1.2rem;
+}
+#clear-btn{
+    position: relative;
+    left: 35%;
+    margin: .1rem;
+    padding: .35rem;
+    background-color: rgb(241, 235, 235);
+    color: red;
+    font-size: 1rem;
+}
+
+#canvas{
+    border: black 2px solid;
+    margin-left: 1.6rem;
+    margin-top: .2rem;
+    
+}
